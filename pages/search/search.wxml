@@ -1,0 +1,25 @@
+<!--pages/search/search.wxml-->
+<view>
+  <view class='header'>
+    <view class="search-span">
+      <text>名称</text>
+    </view>
+    <view class="search-span">
+      <text>特征号</text>
+    </view>
+    <view class="search-span">
+      <text>描述</text>
+    </view>
+    <view class="search-span">
+      <text>操作</text>
+    </view>
+  </view>
+  <view class="downer">
+    <view>
+      <input value="{{searchQuery.name}}"></input>
+    </view>
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+</view>

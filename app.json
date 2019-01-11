@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "backgroundColor":"#f1f1f1",
+    "color": "#66ccff",
+    "list":[
+      {
+        "text": "检索",
+        "pagePath": "pages/search/search",
+        "iconPath":"images/index/account_circle_u83.png",
+        "selectedIconPath": "images/index/account_circle_u83.png"
+      },
+      {
+        "text": "主要",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index/dashboard_u87.png",
+        "selectedIconPath":"images/index/dashboard_u87.png"
+      }
+    ]
+  },
+  "debug": true
+}
