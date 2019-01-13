@@ -5,21 +5,17 @@
       <text>名称</text>
     </view>
     <view class="search-span">
-      <text>特征号</text>
-    </view>
-    <view class="search-span">
       <text>描述</text>
     </view>
     <view class="search-span">
       <text>操作</text>
     </view>
   </view>
-  <view class="downer">
-    <view>
-      <input value="{{searchQuery.name}}"></input>
+  <block>
+    <view wx:for="{{list}}">
+      <view class="img-container">
+        <image src="" />
+      </view>
     </view>
-    <view></view>
-    <view></view>
-    <view></view>
-  </view>
+  </block>
 </view>
